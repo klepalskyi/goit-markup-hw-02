@@ -5,17 +5,19 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 2%;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 header {
   background-color: #ffffff;
 }
-h1 {
+.main-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1, 07;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -23,36 +25,33 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
-.web-logo {
+.logo {
   color: #4d5ae5;
-  font-family: "Raleway";
+  font-family: "Raleway" sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-footer a {
+.footer a {
   text-decoration: none;
 }
 
 .studio-logo {
   color: #2e2f42;
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16;
-  text-decoration: none;
 }
 
 nav a {
@@ -62,54 +61,34 @@ nav a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  height: 24px;
+  letter-spacing: 0.02em;
 }
 
-.nav-studio {
-  width: 48px;
-}
-
-.nav-studio:hover {
-  color: #404bbf;
-}
-
+.nav-studio:hover,
+.nav-studio:focus,
 .nav-studio:active {
   color: #404bbf;
 }
-.nav-portfolio {
-  width: 66px;
-}
 
-.nav-portfolio:hover {
+.nav-portfolio:hover,
+.nav-contacts:focus {
   color: #404bbf;
 }
 
-.nav-contacts {
-  width: 67px;
-}
-.nav-contacts:hover {
+.nav-contacts:hover,
+.nav-contacts:focus {
   color: #404bbf;
 }
 
-address .email,
-.tel {
-  color: #434455;
+.address-links {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  height: 24px;
+  letter-spacing: 0.02em;
 }
 
-address .email {
-  width: 153px;
-}
-
-address .tel {
-  width: 151px;
-}
-
-address a {
+.address-links a {
   color: inherit;
   text-decoration: none;
 }
@@ -122,10 +101,16 @@ address a {
   text-decoration: none;
 }
 
-.h1-button {
+.h-button {
   background-color: #2e2f42;
 }
 .order-service {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
   cursor: pointer;
   background-color: #4d5ae5;
 }
@@ -136,21 +121,42 @@ address a {
   background-color: #404bbf;
 }
 
-.text-button {
+.sectiom-team {
+  background-color: #f4f4fd;
+}
+
+.title-our-team {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.our-team-link {
+  background-color: #ffffff;
+}
+
+.our-team-name {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 4%;
-  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
-.description p {
-  color: #434455;
+.portfolio-title {
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
-.team-list p {
-  color: #434455;
+.footer {
+  background-color: #2e2f42;
 }
-.portfolio-list p {
-  color: #434455;
+
+.footer-text {
+  color: #f4f4fd;
+}
+
+.footer-studio-logo {
+  color: #f4f4fd;
 }
